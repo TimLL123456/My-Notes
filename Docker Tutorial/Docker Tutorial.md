@@ -184,6 +184,7 @@ docker run -p 5000:5000 flask-app
 <details>
     <summary>docker-compose.yml</summary>
 
+* V1
 ```dockerfile
 version: "3.9"
 
@@ -212,11 +213,40 @@ services:
     #   - ./draft/scr_v2:/usr/src/app
     restart: unless-stopped
 ```
+
+* V2
+```dockerfile
+version: "3.9"
+
+services:
+  flask:
+    image:
+      691831409651.dkr.ecr.ap-southeast-1.amazonaws.com/tg_bot:flask-app
+    restart: always
+    ports:
+      - "5000:5000"
+
+  streamlit:
+    image:
+      691831409651.dkr.ecr.ap-southeast-1.amazonaws.com/tg_bot:streamlit-app
+    restart: always
+    depends_on:
+      - flask
+    ports:
+      - "8501:8501"
+```
+
 </details>
 
 ## 8: Build Docker-Compose Image
 ```bash
 docker compose -f ./Docker/docker-compose.yml up
+```
+
+or
+
+```bash
+sudo docker-compose up --build
 ```
 
 ## 9. Docker Container with Bind Mount

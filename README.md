@@ -9,3 +9,5 @@
 * [RAG](./RAG%20Tutorial/RAG%20Tutorial.md)
 
 * [Docker](./Docker%20Tutorial/Docker%20Tutorial.md)
+
+* [AWS EC2 Deployment](./AWS%20Tutorial/AWS%20EC2%20Deploy%20Tutorial.md)
