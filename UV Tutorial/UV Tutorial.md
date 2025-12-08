@@ -114,3 +114,15 @@ uv run --python 3.13 python your_script.py
 ```bash
 uv sync
 ```
+
+### 7. Use `uv` virtual environment (`.venv`) in a Jupyter notebook kernel within VS Code
+
+* Add the Jupyter kernel support to the environment
+```bash
+uv add ipykernel
+```
+* Register the kernel with Jupyter
+  * Rename `--name` (kernel name) and `--display-name`
+```bash
+.venv\Scripts\python.exe -m ipykernel install --user --name=project-name --display-name "Project (uv)"
+```
