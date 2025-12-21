@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "15ef949678117d59",
+    "type": "split",
+    "children": [
+      {
+        "id": "38099cba6a536df8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "acb320f13c88e662",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8f0af591b43df45b",
+    "type": "split",
+    "children": [
+      {
+        "id": "482f7259f636a087",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46cc4ef0274b29df",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "33913ab4fe604c18",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5becf997147de471",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "02a344ddba48f3f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "553c3a3eba023bc3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39922ae29aab521e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "6074e70b6bb63f01",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d37410d2a51c8895",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d362d31e2da2ad7e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "697bd0d74b65157d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "acb320f13c88e662",
+  "lastOpenFiles": [
+    "quartz/et --soft HEAD~1",
+    "quartz/public/index-og-image.webp",
+    "quartz/public/UV-Tutorial/UV-Tutorial-og-image.webp",
+    "quartz/public/RAG-Tutorial/RAG-Tutorial-og-image.webp",
+    "quartz/public/PDB-Tutorial/PDB-Tutorial-og-image.webp",
+    "quartz/public/Logging-Tutorial/Python-Custom-Logger-Examples/output-og-image.webp",
+    "quartz/public/Logging-Tutorial/Logging-Tutorial-og-image.webp",
+    "quartz/public/LLM-Feedback-Loop/LLM-Feedback-Loop-Tutorial-og-image.webp",
+    "quartz/public/Git-Tutorial-(Colab)/Git-Tutorial-(Colab)-og-image.webp",
+    "quartz/public/Docker-Tutorial/Docker-Tutorial-og-image.webp",
+    "quartz/public/index.html",
+    "quartz/public/UV-Tutorial/UV-Tutorial.html",
+    "quartz/public/UV-Tutorial/index.html",
+    "quartz/public/UV-Tutorial",
+    "quartz/public/PDB-Tutorial/PDB-Tutorial.html",
+    "quartz/public/PDB-Tutorial/index.html",
+    "quartz/public/PDB-Tutorial",
+    "quartz/public/static/giscus/light.css",
+    "quartz/public/static/giscus/dark.css",
+    "quartz/public/static/giscus",
+    "quartz/public/static/og-image.png",
+    "quartz/content/index.md",
+    "quartz/content/UV Tutorial/UV Tutorial.md",
+    "quartz/content/RAG Tutorial/RAG Tutorial.md",
+    "quartz/content/PDB Tutorial/PDB Tutorial.md",
+    "quartz/content/Logging Tutorial/Python Custom Logger Examples/output.md",
+    "quartz/content/Logging Tutorial/Logging Tutorial.md",
+    "quartz/content/LLM Feedback Loop/LLM Feedback Loop Tutorial.md",
+    "quartz/content/Git Tutorial (Colab)/Git Tutorial (Colab).md",
+    "quartz/content/Docker Tutorial/Docker Tutorial.md",
+    "quartz/content/AWS Tutorial/AWS EC2 Deploy Tutorial.md",
+    "quartz/node_modules/rxjs/README.md",
+    "quartz/node_modules/rxjs/CODE_OF_CONDUCT.md",
+    "quartz/node_modules/katex/README.md",
+    "quartz/node_modules/yargs/README.md",
+    "quartz/node_modules/workerpool/HISTORY.md",
+    "quartz/node_modules/source-map/CHANGELOG.md",
+    "quartz/node_modules/braces/README.md",
+    "quartz/node_modules/dequal/readme.md",
+    "quartz/node_modules/unist-util-visit-parents/readme.md",
+    "quartz/node_modules/@citation-js/date/README.md",
+    "quartz/node_modules/parse-css-color/CHANGELOG.md",
+    "quartz/node_modules/fast-string-truncated-width/readme.md",
+    "quartz/node_modules/@img/colour/LICENSE.md",
+    "quartz/node_modules/vfile-location/node_modules/@types/unist/README.md",
+    "quartz/node_modules/@napi-rs/simple-git-win32-x64-msvc/README.md"
+  ]
+}
