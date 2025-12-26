@@ -3,7 +3,10 @@ Website: https://timll123456.github.io/My-Notes/
 
 # Table of Content
 
-* [Git (colab)](./Git%20Tutorial%20(Colab)/Git%20Tutorial%20(Colab).md)
+* Git
+    * [Git (colab)](./Git%20Tutorial/Git%20Tutorial%20(Colab).md)
+
+    * [Git (Workflow)](./Git%20Tutorial/Git%20Tutorial%20(Workflow).md)
 
 * [Logging](./Logging%20Tutorial/Logging%20Tutorial.md)
 
