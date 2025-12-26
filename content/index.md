@@ -1,3 +1,6 @@
+# Github Repo Link
+Website: https://github.com/TimLL123456/My-Notes
+
 # Website Link
 Website: https://timll123456.github.io/My-Notes/
 
